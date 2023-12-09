@@ -21,13 +21,15 @@ if (size == 0)
     fprintf(stderr, "size must be greater than 0");
 }
  printf("[");
-for (i = 0; i < size; i++)
-{
+ while (i < size)
+ {
+    /* code */
    printf("%d", array[i]);
    if (i != (size - 1))
    {
     printf(", ");
    }
+   i++;
 }
 printf("]");
 }
