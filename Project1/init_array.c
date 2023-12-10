@@ -2,7 +2,7 @@
 
 /**
  * init_array - function to initialize array
- * @arr: pointer to the array
+ * @array: pointer to the array
  * @size: size of the array
  *  
  * Return: Nothing

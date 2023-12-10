@@ -10,5 +10,6 @@
 
 void init_array(int *array, int size);
 void display_array(int *array, int size);
+int sum_array(int *array, int size);
 
 #endif
