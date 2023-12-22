@@ -1,0 +1,26 @@
+Two main loops in Python (just like in C) are the 'for' and 'while' loops
+
+'FOR LOOP' in Python Vs in C language 
+------------------------------
+In 'C': the for loop has 3 parts, 'initialization'(executed once at the beginning of the loop, this part is used to initialize the loop control variable that would go through whatever is being traversed) 'condition'(this controls the loop. As long as the condition is true, the loop keeps running until condition becomes false) and 'iteration'(executes after each of the loop. It is used to either increment or decrement the loop variable )
+
+Example:
+   for(i = 1; i <= 10; i++)
+   { 
+     printf("%d iteration\n", i);
+}
+------------------------------
+Python: for loop goes over each element in a sequence(a collection of items), it doesn't need an index variable like in C, instead it traverses the elements themselves using a variable as iterator(*research iter() function*)
+Example:
+ fruits = ['apple', 'orange', 'kiwi', 'mango']
+for fruit in fruits:
+    print(fruit)
+
+Throughout the loop, 'fruit' will be one of the items in 'fruits'
+- fruit will be equal to 'apple' on the first iteration
+- fruit will be equal to 'orange' on the second  iteration
+.
+.
+and so on...
+
+
