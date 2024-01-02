@@ -10,3 +10,11 @@ Requirements:
 - Sum: Calculate and display the sum of all elements in the array.
 - Average: Calculate and display the average of all elements in the array.
 - Reverse: Reverse the order of elements in the array and display the reversed array.
+
+
+
+
+
+
+
+run with "gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c init_array.c display_array.c sum_array.c average_array.c reverse_array.c -o array"
